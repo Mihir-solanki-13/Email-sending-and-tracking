@@ -4,7 +4,7 @@ This project contains code snippets for sending and tracking emails using Django
 
 ## Description
 
-The project includes functions for generating tracking identifiers, tracking emails, and sending verification emails. It utilizes Django's built-in modules for handling HTTP requests, email sending, database operations, and template rendering.
+The project includes functions for generating tracking identifiers, tracking emails, and sending emails. It utilizes Django's built-in modules for handling HTTP requests, email sending, database operations, and template rendering.
 
 ## Features
 

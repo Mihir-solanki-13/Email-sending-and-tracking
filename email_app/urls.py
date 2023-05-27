@@ -4,8 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('', send_email, name='send_email'),
-    # path('track-email-open/', track_email_open, name='track_email_open'),
-    # re_path(r'^image_load/$', image_load, name='image_load'),
-
-    # path('track/<int:email_id>/', track_open, name='track_open'),
+    path('email/opened/<int:email_id>/', email_opened, name='email_opened'),
 ]

@@ -8,4 +8,7 @@ class Email(models.Model):
     is_opened = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return self.subject
+
 
